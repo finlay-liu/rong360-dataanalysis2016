@@ -1,0 +1,996 @@
+booster[0]:
+0:[tm_encode<11616948] yes=1,no=2,missing=1
+	1:[max_credit_lmt_amt_usd<344000] yes=3,no=4,missing=3
+		3:leaf=-0.050237
+		4:leaf=-0.00903265
+	2:[out_degree_x<0] yes=5,no=6,missing=5
+		5:[max_month_repay_std<240.47] yes=11,no=12,missing=12
+			11:leaf=0.0102908
+			12:[tm_encode<21548192] yes=25,no=26,missing=25
+				25:[2u_friends_y<5.5] yes=45,no=46,missing=45
+					45:leaf=-0.0285315
+					46:leaf=0.0114765
+				26:leaf=0.0138745
+		6:[money_function<1] yes=13,no=14,missing=13
+			13:[out_degree_y<1.5] yes=27,no=28,missing=27
+				27:[mean_tm_encode<1.42039e+007] yes=49,no=50,missing=49
+					49:leaf=0.018877
+					50:[std_current_bill_min_repay_amt<1.0383e+006] yes=87,no=88,missing=87
+						87:leaf=0.0339895
+						88:leaf=-0.0108147
+				28:[prior_period_bill_amt<120690] yes=51,no=52,missing=52
+					51:leaf=0.0122771
+					52:leaf=0.0264885
+			14:[max_circle_interest<6509] yes=29,no=30,missing=30
+				29:leaf=0.00391305
+				30:[mean_tm_encode<2.064e+007] yes=55,no=56,missing=55
+					55:leaf=0.00932773
+					56:leaf=0.0264026
+booster[1]:
+0:[tm_encode<11616948] yes=1,no=2,missing=1
+	1:leaf=-0.0476244
+	2:[1u_friends_x<4.5] yes=5,no=6,missing=5
+		5:[max_month_repay_mean<1350] yes=11,no=12,missing=11
+			11:[max_curt_jifen<56230] yes=23,no=24,missing=24
+				23:leaf=-0.00209214
+				24:leaf=0.0226786
+			12:[tm_encode<21306832] yes=25,no=26,missing=25
+				25:leaf=-0.0337623
+				26:leaf=-0.00223391
+		6:[money_function<1] yes=13,no=14,missing=13
+			13:[out_degree_y<1.5] yes=27,no=28,missing=27
+				27:[mean_tm_encode<1.37541e+007] yes=47,no=48,missing=47
+					47:leaf=0.0177356
+					48:[min_avlb_bal<-5.5] yes=83,no=84,missing=84
+						83:leaf=-0.00205487
+						84:[tm_encode<19057844] yes=139,no=140,missing=139
+							139:leaf=0.0364115
+							140:[max_month_repay_count<6] yes=227,no=228,missing=228
+								227:leaf=0.0385219
+								228:leaf=0.0227548
+				28:[max_month_repay_count<5] yes=49,no=50,missing=50
+					49:leaf=0.0357789
+					50:leaf=0.0167906
+			14:[std_pre_borrow_cash_amt_usd<16001.5] yes=29,no=30,missing=30
+				29:leaf=0.00497891
+				30:[min_tm_encode<1.9918e+007] yes=53,no=54,missing=53
+					53:leaf=0.0104292
+					54:leaf=0.0283112
+booster[2]:
+0:[tm_encode<11616948] yes=1,no=2,missing=1
+	1:leaf=-0.0452842
+	2:[out_degree_x<0] yes=5,no=6,missing=5
+		5:[max_month_repay_std<240.47] yes=11,no=12,missing=12
+			11:leaf=0.0121866
+			12:[tm_encode<21505404] yes=25,no=26,missing=25
+				25:leaf=-0.0240335
+				26:leaf=0.0118515
+		6:[money_function<1] yes=13,no=14,missing=13
+			13:[out_degree_y<1.5] yes=27,no=28,missing=27
+				27:[sum_tm_encode<6.92256e+007] yes=51,no=52,missing=51
+					51:leaf=0.00443257
+					52:leaf=0.0296448
+				28:[local_hk<2] yes=53,no=54,missing=53
+					53:leaf=0.0286254
+					54:[min_current_bill_min_repay_amt<1715.5] yes=91,no=92,missing=92
+						91:leaf=0.00620468
+						92:[max_current_bill_bal<776722] yes=149,no=150,missing=150
+							149:leaf=0.0296294
+							150:[std_curt_jifen<3850.2] yes=235,no=236,missing=236
+								235:leaf=-0.00996005
+								236:leaf=0.0187249
+			14:[max_circle_interest<6514] yes=29,no=30,missing=30
+				29:leaf=0.00446951
+				30:[min_tm_encode<1.96982e+007] yes=57,no=58,missing=57
+					57:leaf=0.0100182
+					58:leaf=0.0248251
+booster[3]:
+0:[max_tm_encode<1.16169e+007] yes=1,no=2,missing=1
+	1:[credit_lmt_amt<4.25e+006] yes=3,no=4,missing=3
+		3:leaf=-0.0434851
+		4:leaf=0.00379642
+	2:[out_degree_x<1.5] yes=5,no=6,missing=5
+		5:[max_month_repay_std<240.47] yes=11,no=12,missing=12
+			11:leaf=0.0118339
+			12:[max_tm_encode<2.15054e+007] yes=25,no=26,missing=25
+				25:leaf=-0.0246545
+				26:leaf=0.0112464
+		6:[money_function<1] yes=13,no=14,missing=13
+			13:[out_degree_y<1.5] yes=27,no=28,missing=27
+				27:[std_current_bill_min_repay_amt<1.03873e+006] yes=45,no=46,missing=45
+					45:[min_prior_period_bill_amt<-292208] yes=73,no=74,missing=74
+						73:leaf=0.00616648
+						74:[max_tm_encode<1.90579e+007] yes=123,no=124,missing=123
+							123:leaf=0.0336179
+							124:[mean_tm_encode<1.86621e+007] yes=207,no=208,missing=207
+								207:leaf=0.00781934
+								208:leaf=0.0285358
+					46:leaf=-0.0110408
+				28:[max_month_repay_count<5] yes=47,no=48,missing=48
+					47:leaf=0.0335243
+					48:leaf=0.0153429
+			14:[max_circle_interest<6514] yes=29,no=30,missing=30
+				29:leaf=0.00522293
+				30:[min_tm_encode<1.93765e+007] yes=51,no=52,missing=51
+					51:leaf=0.00820724
+					52:leaf=0.0244813
+booster[4]:
+0:[tm_encode<11526579] yes=1,no=2,missing=1
+	1:[std_credit_lmt_amt<1.5814e+006] yes=3,no=4,missing=3
+		3:leaf=-0.0423591
+		4:leaf=-0.00820694
+	2:[out_degree_x<0] yes=5,no=6,missing=5
+		5:[max_month_repay_std<240.47] yes=11,no=12,missing=12
+			11:leaf=0.00985516
+			12:[tm_encode<21505404] yes=25,no=26,missing=25
+				25:leaf=-0.0224029
+				26:leaf=0.0118876
+		6:[money_function<1] yes=13,no=14,missing=13
+			13:[max_month_repay_count<6] yes=27,no=28,missing=28
+				27:leaf=0.0337382
+				28:[tm_encode<19667652] yes=53,no=54,missing=53
+					53:[in_degree_y<33] yes=91,no=92,missing=92
+						91:leaf=0.0289213
+						92:leaf=0.0184439
+					54:leaf=0.0136071
+			14:[std_adj_amt<85166.1] yes=29,no=30,missing=30
+				29:leaf=0.00424599
+				30:[mean_tm_encode<2.064e+007] yes=57,no=58,missing=57
+					57:leaf=0.00767933
+					58:leaf=0.0239218
+booster[5]:
+0:[tm_encode<11616948] yes=1,no=2,missing=1
+	1:[std_credit_lmt_amt<1.63083e+006] yes=3,no=4,missing=3
+		3:leaf=-0.0405929
+		4:leaf=-0.0041834
+	2:[out_degree_x<0] yes=5,no=6,missing=5
+		5:[max_month_repay_min<950] yes=11,no=12,missing=11
+			11:leaf=0.00614678
+			12:[tm_encode<21505404] yes=25,no=26,missing=25
+				25:leaf=-0.0226689
+				26:leaf=0.0085085
+		6:[money_function<1] yes=13,no=14,missing=13
+			13:[max_month_repay_count<6] yes=27,no=28,missing=28
+				27:leaf=0.0329918
+				28:[tm_encode<19667652] yes=55,no=56,missing=55
+					55:[1u_friends_y<3.5] yes=97,no=98,missing=97
+						97:leaf=0.0268272
+						98:[mean_current_bill_amt<179033] yes=167,no=168,missing=168
+							167:leaf=0.0102805
+							168:leaf=0.0265126
+					56:[expect_quota_mean<7366.07] yes=99,no=100,missing=100
+						99:leaf=0.0196476
+						100:leaf=0.00679961
+			14:[min_prior_period_bill_amt<-484.5] yes=29,no=30,missing=29
+				29:[mean_tm_encode<2.06643e+007] yes=57,no=58,missing=57
+					57:leaf=0.00910326
+					58:leaf=0.0241506
+				30:leaf=0.00462977
+booster[6]:
+0:[tm_encode<11616948] yes=1,no=2,missing=1
+	1:leaf=-0.0376744
+	2:[1u_friends_x<4.5] yes=5,no=6,missing=5
+		5:[max_month_repay_std<240.47] yes=11,no=12,missing=12
+			11:leaf=0.0114851
+			12:[tm_encode<20897384] yes=25,no=26,missing=25
+				25:[2u_friends_y<169] yes=51,no=52,missing=51
+					51:leaf=-0.0366661
+					52:leaf=0.0124821
+				26:leaf=-0.00509629
+		6:[money_function<1] yes=13,no=14,missing=13
+			13:[max_month_repay_count<6] yes=27,no=28,missing=28
+				27:leaf=0.031169
+				28:[tm_encode<19667652] yes=57,no=58,missing=57
+					57:[out_degree_y<0] yes=107,no=108,missing=107
+						107:leaf=0.0265176
+						108:[current_bill_amt<167213] yes=183,no=184,missing=183
+							183:leaf=0.0113392
+							184:leaf=0.0306468
+					58:[expect_quota_mean<9250] yes=109,no=110,missing=110
+						109:leaf=0.018783
+						110:[std_prior_period_repay_amt<61651.1] yes=187,no=188,missing=188
+							187:leaf=-0.00112919
+							188:leaf=0.0148184
+			14:[std_adj_amt<85272.1] yes=29,no=30,missing=30
+				29:leaf=0.00349365
+				30:[std_tm_encode<766744] yes=61,no=62,missing=61
+					61:leaf=0.0223006
+					62:leaf=0.00774655
+booster[7]:
+0:[tm_encode<11616948] yes=1,no=2,missing=1
+	1:[curt_jifen<401.5] yes=3,no=4,missing=3
+		3:leaf=-0.0422332
+		4:leaf=-0.0284443
+	2:[1u_friends_x<4.5] yes=5,no=6,missing=5
+		5:[max_month_repay_std<249.634] yes=11,no=12,missing=12
+			11:leaf=0.0107122
+			12:[tm_encode<21415024] yes=23,no=24,missing=23
+				23:leaf=-0.0192997
+				24:leaf=0.00520395
+		6:[money_function<1] yes=13,no=14,missing=13
+			13:[max_month_repay_count<6] yes=25,no=26,missing=26
+				25:leaf=0.0312638
+				26:[tm_encode<19766388] yes=51,no=52,missing=51
+					51:[gross_profit_x<62.5] yes=99,no=100,missing=99
+						99:[in_degree_y<47] yes=175,no=176,missing=176
+							175:leaf=0.0249417
+							176:[sum_current_bill_amt<1.74953e+006] yes=279,no=280,missing=279
+								279:leaf=0.00991658
+								280:leaf=0.0264512
+						100:leaf=-0.00466791
+					52:leaf=0.0109029
+			14:[std_adj_amt<85272.1] yes=27,no=28,missing=28
+				27:leaf=0.00382679
+				28:leaf=0.0158334
+booster[8]:
+0:[tm_encode<11616948] yes=1,no=2,missing=1
+	1:[mean_pre_borrow_cash_amt_usd<12273.3] yes=3,no=4,missing=3
+		3:leaf=-0.0368762
+		4:leaf=-0.0161352
+	2:[out_degree_x<0] yes=5,no=6,missing=5
+		5:[flow_x<12501] yes=11,no=12,missing=12
+			11:[tm_encode<21512828] yes=23,no=24,missing=23
+				23:leaf=-0.0211861
+				24:leaf=0.0111762
+			12:leaf=0.00959222
+		6:[money_function<1] yes=13,no=14,missing=13
+			13:[1u_friends_y<0] yes=27,no=28,missing=27
+				27:[min_prior_period_bill_amt<-449832] yes=55,no=56,missing=56
+					55:leaf=-0.00156018
+					56:[sum_current_award_jifen<193321] yes=105,no=106,missing=105
+						105:[std_current_bill_min_repay_amt<1.0517e+006] yes=181,no=182,missing=181
+							181:[max_prior_period_repay_amt<1.38215e+006] yes=283,no=284,missing=283
+								283:[mean_adj_amt<21447.7] yes=391,no=392,missing=391
+									391:leaf=0.0216731
+									392:leaf=-0.0133707
+								284:leaf=0.0312404
+							182:leaf=-0.0106963
+						106:leaf=-0.0137877
+				28:leaf=0.0147483
+			14:[std_pre_borrow_cash_amt_usd<16125.6] yes=29,no=30,missing=30
+				29:leaf=0.00367796
+				30:leaf=0.0167796
+booster[9]:
+0:[tm_encode<11616948] yes=1,no=2,missing=1
+	1:[max_credit_lmt_amt_usd<344000] yes=3,no=4,missing=3
+		3:leaf=-0.0353512
+		4:leaf=0.00122456
+	2:[out_degree_x<0] yes=5,no=6,missing=5
+		5:[out_degree_y<0] yes=11,no=12,missing=11
+			11:[tm_encode<21505404] yes=23,no=24,missing=23
+				23:leaf=-0.0175487
+				24:leaf=0.0107016
+			12:leaf=0.00737296
+		6:[money_function<1] yes=13,no=14,missing=13
+			13:[out_degree_y<1.5] yes=27,no=28,missing=27
+				27:[mean_tm_encode<1.55454e+007] yes=53,no=54,missing=53
+					53:leaf=0.0135305
+					54:[std_current_bill_min_repay_amt<1.04067e+006] yes=97,no=98,missing=97
+						97:leaf=0.0242792
+						98:leaf=-0.0171832
+				28:[prior_period_bill_amt<120690] yes=55,no=56,missing=56
+					55:leaf=0.00586199
+					56:leaf=0.0199525
+			14:[std_pre_borrow_cash_amt_usd<14107.2] yes=29,no=30,missing=30
+				29:leaf=0.003252
+				30:leaf=0.0148217
+booster[10]:
+0:[tm_encode<13393312] yes=1,no=2,missing=1
+	1:[max_credit_lmt_amt<2.675e+006] yes=3,no=4,missing=3
+		3:[1u_friends_x<829.5] yes=7,no=8,missing=7
+			7:leaf=-0.0346587
+			8:leaf=0.00264146
+		4:leaf=-0.0134565
+	2:[out_degree_x<0] yes=5,no=6,missing=5
+		5:[max_month_repay_min<850] yes=11,no=12,missing=11
+			11:leaf=0.00788629
+			12:[tm_encode<21415264] yes=25,no=26,missing=25
+				25:leaf=-0.0200048
+				26:leaf=0.00446096
+		6:[max_month_repay_count<6] yes=13,no=14,missing=14
+			13:leaf=0.0267831
+			14:[tm_encode<19595364] yes=29,no=30,missing=29
+				29:leaf=0.0200999
+				30:[sum_current_bill_amt<471993] yes=61,no=62,missing=62
+					61:leaf=0.00476789
+					62:[std_tm_encode<762919] yes=113,no=114,missing=113
+						113:[std_cost_cnt<2.45395] yes=195,no=196,missing=195
+							195:leaf=0.022141
+							196:leaf=-0.00942519
+						114:leaf=0.00495086
+booster[11]:
+0:[max_tm_encode<1.24304e+007] yes=1,no=2,missing=1
+	1:[max_credit_lmt_amt<2.655e+006] yes=3,no=4,missing=3
+		3:leaf=-0.0334861
+		4:leaf=-0.0138186
+	2:[out_degree_x<0] yes=5,no=6,missing=5
+		5:[money_function<21] yes=11,no=12,missing=12
+			11:[max_tm_encode<2.0907e+007] yes=23,no=24,missing=23
+				23:leaf=-0.0274925
+				24:leaf=-0.00413845
+			12:leaf=0.0157848
+		6:[money_function<1] yes=13,no=14,missing=13
+			13:[out_degree_y<1.5] yes=27,no=28,missing=27
+				27:[mean_tm_encode<1.49163e+007] yes=53,no=54,missing=53
+					53:leaf=0.0084053
+					54:leaf=0.0219853
+				28:[min_current_bill_min_repay_amt<3649.5] yes=55,no=56,missing=56
+					55:leaf=0.00502228
+					56:leaf=0.0169789
+			14:[min_prior_period_bill_amt<-340.5] yes=29,no=30,missing=29
+				29:leaf=0.0129906
+				30:leaf=0.00183478
+booster[12]:
+0:[tm_encode<11616948] yes=1,no=2,missing=1
+	1:leaf=-0.0307608
+	2:[out_degree_x<0] yes=5,no=6,missing=5
+		5:[max_month_repay_min<1350] yes=11,no=12,missing=11
+			11:[std_prior_period_repay_amt<271152] yes=23,no=24,missing=23
+				23:leaf=-0.00407523
+				24:leaf=0.0226766
+			12:[tm_encode<21310724] yes=25,no=26,missing=25
+				25:leaf=-0.0249285
+				26:leaf=-0.00208649
+		6:[money_function<1] yes=13,no=14,missing=13
+			13:[local_hk<2] yes=27,no=28,missing=27
+				27:leaf=0.0213664
+				28:[expect_quota_mean<5416.67] yes=57,no=58,missing=58
+					57:[salary<3766] yes=103,no=104,missing=103
+						103:leaf=0.00956013
+						104:leaf=0.0255551
+					58:[tm_encode<19667028] yes=105,no=106,missing=105
+						105:leaf=0.0136199
+						106:leaf=0.00187432
+			14:[sum_circle_interest<37892] yes=29,no=30,missing=30
+				29:leaf=0.00303164
+				30:leaf=0.0136465
+booster[13]:
+0:[tm_encode<11616948] yes=1,no=2,missing=1
+	1:[curt_jifen<2981] yes=3,no=4,missing=3
+		3:leaf=-0.0333932
+		4:leaf=-0.0194142
+	2:[out_degree_x<0] yes=5,no=6,missing=5
+		5:[money_function<7] yes=11,no=12,missing=12
+			11:[tm_encode<20906988] yes=21,no=22,missing=21
+				21:leaf=-0.0262107
+				22:leaf=-0.0018367
+			12:leaf=0.0161443
+		6:[money_function<1] yes=13,no=14,missing=13
+			13:[max_month_repay_count<6] yes=25,no=26,missing=26
+				25:leaf=0.0248709
+				26:[tm_encode<19595364] yes=51,no=52,missing=51
+					51:[std_credit_lmt_amt<1.59565e+006] yes=97,no=98,missing=97
+						97:[mean_current_bill_amt<119186] yes=163,no=164,missing=163
+							163:[1u_friends_y<142.5] yes=255,no=256,missing=255
+								255:leaf=0.0178236
+								256:leaf=-0.000611286
+							164:leaf=0.0232654
+						98:leaf=-7.66197e-005
+					52:leaf=0.00896428
+			14:[mean_prior_period_repay_amt<122982] yes=27,no=28,missing=28
+				27:leaf=0.00345341
+				28:[mean_tm_encode<2.05931e+007] yes=55,no=56,missing=55
+					55:leaf=0.00436648
+					56:leaf=0.0205445
+booster[14]:
+0:[tm_encode<11616948] yes=1,no=2,missing=1
+	1:[max_avlb_bal<1.63725e+006] yes=3,no=4,missing=4
+		3:leaf=-0.0334851
+		4:leaf=-0.0209129
+	2:[1u_friends_x<4.5] yes=5,no=6,missing=5
+		5:[max_month_repay<3751] yes=11,no=12,missing=11
+			11:leaf=0.000227762
+			12:leaf=-0.0205268
+		6:[max_month_repay_count<6] yes=13,no=14,missing=14
+			13:leaf=0.0250741
+			14:[tm_encode<19667652] yes=29,no=30,missing=29
+				29:[tm_encode<16038689] yes=57,no=58,missing=57
+					57:leaf=0.00292589
+					58:[tm_encode<18270240] yes=105,no=106,missing=105
+						105:leaf=0.0225714
+						106:[current_bill_amt<88160.5] yes=175,no=176,missing=175
+							175:[std_credit_lmt_amt<978039] yes=269,no=270,missing=269
+								269:leaf=0.0129207
+								270:leaf=-0.017693
+							176:leaf=0.0222462
+				30:[sum_current_bill_amt<471993] yes=59,no=60,missing=60
+					59:leaf=0.0025053
+					60:[mean_tm_encode<1.85203e+007] yes=109,no=110,missing=109
+						109:leaf=-0.000575023
+						110:leaf=0.0153479
+booster[15]:
+0:[max_tm_encode<1.16169e+007] yes=1,no=2,missing=1
+	1:leaf=-0.0267208
+	2:[out_degree_x<0] yes=5,no=6,missing=5
+		5:[in_degree_y<1.5] yes=11,no=12,missing=12
+			11:[max_tm_encode<2.0872e+007] yes=23,no=24,missing=23
+				23:leaf=-0.0243885
+				24:leaf=-0.00274144
+			12:leaf=0.0105956
+		6:[money_function<1] yes=13,no=14,missing=13
+			13:[sum_credit_lmt_amt_usd<2.9055e+006] yes=27,no=28,missing=28
+				27:[2u_friends_y<2855] yes=51,no=52,missing=51
+					51:[salary_mean<4516.67] yes=91,no=92,missing=92
+						91:leaf=0.00866044
+						92:leaf=0.0186175
+					52:leaf=0.000380072
+				28:leaf=0.0184512
+			14:leaf=0.00623015
+booster[16]:
+0:[tm_encode<11616948] yes=1,no=2,missing=1
+	1:[tm_encode<9649676] yes=3,no=4,missing=3
+		3:[max_credit_lmt_amt_usd<341000] yes=7,no=8,missing=7
+			7:[min_prior_period_bill_amt<-2078] yes=15,no=16,missing=16
+				15:[sum_cost_cnt<72.5] yes=31,no=32,missing=32
+					31:leaf=0.00891937
+					32:leaf=-0.0242384
+				16:leaf=-0.0240472
+			8:leaf=0.00968683
+		4:leaf=-0.0359704
+	2:[out_degree_x<28.5] yes=5,no=6,missing=5
+		5:[max_month_repay_mean<1350] yes=11,no=12,missing=11
+			11:[mean_curt_jifen<6505.56] yes=23,no=24,missing=24
+				23:leaf=-0.00458376
+				24:leaf=0.0183264
+			12:[tm_encode<21484176] yes=25,no=26,missing=25
+				25:leaf=-0.0168566
+				26:leaf=0.00771705
+		6:[tm_encode<18444316] yes=13,no=14,missing=13
+			13:leaf=0.0194766
+			14:[max_month_repay_count<6] yes=29,no=30,missing=30
+				29:leaf=0.0228849
+				30:[min_tm_encode<1.84452e+007] yes=55,no=56,missing=55
+					55:[min_adj_amt<-705302] yes=101,no=102,missing=102
+						101:leaf=0.0219443
+						102:[min_current_bill_bal<369087] yes=183,no=184,missing=184
+							183:[max_current_bill_bal<1.96121e+006] yes=293,no=294,missing=293
+								293:leaf=0.00241201
+								294:leaf=-0.0156333
+							184:[sum_tm_encode<1.17101e+008] yes=295,no=296,missing=295
+								295:leaf=0.0185776
+								296:leaf=-0.00624818
+					56:[sum_current_bill_amt<263877] yes=103,no=104,missing=104
+						103:leaf=0.00552779
+						104:[expect_quota_mean<26833.3] yes=187,no=188,missing=188
+							187:leaf=0.0187162
+							188:leaf=0.00173069
+booster[17]:
+0:[tm_encode<11763853] yes=1,no=2,missing=1
+	1:leaf=-0.0263019
+	2:[out_degree_x<4.5] yes=5,no=6,missing=5
+		5:[max_month_repay_mean<2895.24] yes=11,no=12,missing=11
+			11:leaf=0.00184242
+			12:leaf=-0.0167615
+		6:[money_function<1] yes=13,no=14,missing=13
+			13:[max_month_repay_count<6] yes=27,no=28,missing=28
+				27:leaf=0.0218256
+				28:[tm_encode<19824552] yes=57,no=58,missing=57
+					57:leaf=0.0152482
+					58:leaf=0.00477518
+			14:[min_prior_period_bill_amt<-484.5] yes=29,no=30,missing=29
+				29:[std_tm_encode<2.48855e+006] yes=59,no=60,missing=59
+					59:leaf=0.0164694
+					60:leaf=0.00136746
+				30:leaf=0.00152286
+booster[18]:
+0:[tm_encode<11616948] yes=1,no=2,missing=1
+	1:[tm_encode<9628701] yes=3,no=4,missing=3
+		3:leaf=-0.0184456
+		4:leaf=-0.0334794
+	2:[out_degree_x<0] yes=5,no=6,missing=5
+		5:[max_month_repay_min<1925] yes=11,no=12,missing=11
+			11:leaf=0.0030111
+			12:leaf=-0.0139162
+		6:[tm_encode<18270796] yes=13,no=14,missing=13
+			13:[tm_encode<16040665] yes=27,no=28,missing=27
+				27:leaf=0.000156257
+				28:leaf=0.0196542
+			14:[max_month_repay_count<6] yes=29,no=30,missing=30
+				29:leaf=0.0203346
+				30:[min_current_bill_bal<200418] yes=59,no=60,missing=60
+					59:[std_tm_encode<489563] yes=107,no=108,missing=107
+						107:[sum_current_bill_amt<619630] yes=183,no=184,missing=183
+							183:leaf=0.00521735
+							184:[2u_friends_x<3673.5] yes=285,no=286,missing=285
+								285:leaf=0.0182684
+								286:leaf=-0.00544191
+						108:leaf=-0.000226751
+					60:leaf=0.0135722
+booster[19]:
+0:[tm_encode<11616948] yes=1,no=2,missing=1
+	1:[max_prior_period_bill_amt<2.97306e+006] yes=3,no=4,missing=3
+		3:leaf=-0.0249031
+		4:leaf=-0.00195983
+	2:[out_degree_x<0] yes=5,no=6,missing=5
+		5:leaf=-0.00327296
+		6:[mean_current_bill_amt<137678] yes=13,no=14,missing=14
+			13:[max_month_repay_count<4] yes=27,no=28,missing=28
+				27:leaf=0.0204423
+				28:[1u_friends_x<45.5] yes=55,no=56,missing=55
+					55:leaf=-0.00174081
+					56:[tm_encode<19667528] yes=107,no=108,missing=107
+						107:[out_degree_y<145.5] yes=181,no=182,missing=181
+							181:leaf=0.0153745
+							182:leaf=-0.00316358
+						108:leaf=0.00489173
+			14:[std_tm_encode<4.02401e+006] yes=29,no=30,missing=29
+				29:[min_current_bill_min_repay_amt<879] yes=57,no=58,missing=58
+					57:leaf=0.000400592
+					58:leaf=0.0182543
+				30:leaf=0.00485402
+booster[20]:
+0:[tm_encode<11616948] yes=1,no=2,missing=1
+	1:[tm_encode<9628701] yes=3,no=4,missing=3
+		3:leaf=-0.0178393
+		4:leaf=-0.0329418
+	2:[out_degree_x<28.5] yes=5,no=6,missing=5
+		5:[max_month_repay_min<1350] yes=11,no=12,missing=11
+			11:[max_curt_jifen<37657] yes=23,no=24,missing=24
+				23:leaf=-0.00534745
+				24:leaf=0.0194626
+			12:leaf=-0.00979094
+		6:[tm_encode<18270796] yes=13,no=14,missing=13
+			13:leaf=0.0165415
+			14:[live_info<6] yes=29,no=30,missing=30
+				29:leaf=0.00659452
+				30:leaf=0.0164675
+booster[21]:
+0:[tm_encode<11526579] yes=1,no=2,missing=1
+	1:leaf=-0.0212095
+	2:[out_degree_x<0] yes=5,no=6,missing=5
+		5:[2u_friends_y<903.5] yes=11,no=12,missing=11
+			11:[tm_encode<21304808] yes=23,no=24,missing=23
+				23:leaf=-0.0165869
+				24:leaf=0.00173738
+			12:leaf=0.0126975
+		6:[money_function<1] yes=13,no=14,missing=13
+			13:[2u_friends_y<0] yes=27,no=28,missing=27
+				27:leaf=0.0139762
+				28:leaf=0.00663584
+			14:[std_current_bill_amt<280038] yes=29,no=30,missing=30
+				29:leaf=0.00194044
+				30:[local_hk_missingInfo<3] yes=61,no=62,missing=61
+					61:leaf=0.0192298
+					62:leaf=-0.00226211
+booster[22]:
+0:[max_tm_encode<1.15266e+007] yes=1,no=2,missing=1
+	1:[max_tm_encode<9.65092e+006] yes=3,no=4,missing=3
+		3:leaf=-0.0162741
+		4:leaf=-0.0302005
+	2:[out_degree_x<1.5] yes=5,no=6,missing=5
+		5:[money_function<21] yes=11,no=12,missing=12
+			11:[max_tm_encode<2.0907e+007] yes=23,no=24,missing=23
+				23:leaf=-0.0226371
+				24:leaf=-0.00146947
+			12:leaf=0.0115732
+		6:[live_info<6] yes=13,no=14,missing=14
+			13:[max_tm_encode<1.93043e+007] yes=27,no=28,missing=27
+				27:[expect_quota_mean<23575] yes=53,no=54,missing=54
+					53:[current_bill_amt<419653] yes=97,no=98,missing=98
+						97:[std_current_bill_min_repay_amt<123331] yes=159,no=160,missing=159
+							159:leaf=0.012022
+							160:leaf=-0.00994883
+						98:[min_current_bill_bal<547181] yes=161,no=162,missing=161
+							161:leaf=0.0234515
+							162:leaf=-0.00293641
+					54:leaf=0.0024089
+				28:[expect_quota_max<2201] yes=55,no=56,missing=56
+					55:leaf=0.0158432
+					56:leaf=0.00283002
+			14:leaf=0.0153169
+booster[23]:
+0:[tm_encode<11763853] yes=1,no=2,missing=1
+	1:[tm_encode<9624676] yes=3,no=4,missing=3
+		3:[max_credit_lmt_amt_usd<341000] yes=7,no=8,missing=7
+			7:leaf=-0.0167417
+			8:leaf=0.0156985
+		4:leaf=-0.0300024
+	2:[out_degree_x<28.5] yes=5,no=6,missing=5
+		5:[max_month_repay<3051] yes=11,no=12,missing=11
+			11:[prior_period_repay_amt<97898.5] yes=23,no=24,missing=23
+				23:leaf=-0.0035556
+				24:leaf=0.0124417
+			12:leaf=-0.0147257
+		6:[max_month_repay_count<4] yes=13,no=14,missing=14
+			13:leaf=0.0194402
+			14:[tm_encode<19667652] yes=29,no=30,missing=29
+				29:[in_degree_y<95.5] yes=55,no=56,missing=56
+					55:leaf=0.0146408
+					56:[salary_min<4050] yes=101,no=102,missing=101
+						101:[mean_current_bill_bal<185305] yes=165,no=166,missing=165
+							165:leaf=-0.0129092
+							166:leaf=0.00923251
+						102:leaf=0.0131475
+				30:leaf=0.00526184
+booster[24]:
+0:[tm_encode<13393312] yes=1,no=2,missing=1
+	1:leaf=-0.0193553
+	2:[out_degree_x<46.5] yes=5,no=6,missing=5
+		5:[max_month_repay<3051] yes=11,no=12,missing=11
+			11:leaf=0.00270042
+			12:leaf=-0.0142555
+		6:[prior_period_repay_amt<29622.5] yes=13,no=14,missing=14
+			13:leaf=0.00559425
+			14:[expect_quota_mean<13708.3] yes=29,no=30,missing=30
+				29:leaf=0.0150615
+				30:leaf=0.00721351
+booster[25]:
+0:[tm_encode<11616948] yes=1,no=2,missing=1
+	1:[cost_cnt<0] yes=3,no=4,missing=3
+		3:leaf=-0.0222549
+		4:leaf=-0.00848893
+	2:[out_degree_x<0] yes=5,no=6,missing=5
+		5:[max_month_repay_min<1925] yes=11,no=12,missing=11
+			11:leaf=0.00407033
+			12:leaf=-0.0124783
+		6:[max_month_repay_count<6] yes=13,no=14,missing=14
+			13:leaf=0.0175951
+			14:[tm_encode<19823960] yes=29,no=30,missing=29
+				29:[expect_quota_mean<22250] yes=59,no=60,missing=60
+					59:[sum_prior_period_repay_amt<9.59317e+006] yes=115,no=116,missing=115
+						115:leaf=0.0105271
+						116:leaf=0.0231348
+					60:leaf=0.00371673
+				30:[mean_tm_encode<1.9885e+007] yes=61,no=62,missing=61
+					61:[sum_prior_period_jifen_bal<74676.5] yes=119,no=120,missing=119
+						119:leaf=-0.00929948
+						120:leaf=0.00718508
+					62:leaf=0.00627238
+booster[26]:
+0:[tm_encode<15955298] yes=1,no=2,missing=1
+	1:[std_current_award_jifen<2521.56] yes=3,no=4,missing=3
+		3:leaf=-0.0188003
+		4:leaf=0.0052631
+	2:[tm_encode<18270240] yes=5,no=6,missing=5
+		5:[salary<2051] yes=11,no=12,missing=11
+			11:leaf=-0.0024142
+			12:leaf=0.0168445
+		6:[out_degree_x<0] yes=13,no=14,missing=13
+			13:leaf=-0.00445385
+			14:[live_info<6] yes=29,no=30,missing=30
+				29:leaf=0.00455227
+				30:leaf=0.0139412
+booster[27]:
+0:[tm_encode<11616948] yes=1,no=2,missing=1
+	1:[tm_encode<9649676] yes=3,no=4,missing=3
+		3:leaf=-0.013119
+		4:leaf=-0.0271684
+	2:[out_degree_x<50.5] yes=5,no=6,missing=5
+		5:[salary<3332] yes=11,no=12,missing=11
+			11:leaf=-0.00631409
+			12:leaf=0.00444111
+		6:[std_tm_encode<663392] yes=13,no=14,missing=13
+			13:[2u_friends_x<3631.5] yes=27,no=28,missing=27
+				27:[sum_current_bill_amt<278810] yes=51,no=52,missing=52
+					51:leaf=0.00846524
+					52:[expect_quota_min<3251] yes=99,no=100,missing=99
+						99:leaf=0.0304173
+						100:leaf=0.012641
+				28:leaf=0.000806456
+			14:[prior_period_bill_amt<984605] yes=29,no=30,missing=30
+				29:leaf=0.000662925
+				30:leaf=0.0121575
+booster[28]:
+0:[tm_encode<11526579] yes=1,no=2,missing=1
+	1:[curt_jifen<2080.5] yes=3,no=4,missing=3
+		3:leaf=-0.0216765
+		4:leaf=-0.00811517
+	2:[tm_encode<19667652] yes=5,no=6,missing=5
+		5:[sum_prior_period_repay_amt<1.04072e+007] yes=11,no=12,missing=11
+			11:[sum_pre_borrow_cash_amt<3.93e+006] yes=23,no=24,missing=23
+				23:[expect_quota_std<607.854] yes=47,no=48,missing=48
+					47:leaf=-0.0156599
+					48:[expect_quota_mean<4875] yes=89,no=90,missing=90
+						89:leaf=0.0186451
+						90:[min_prior_period_repay_amt<100.5] yes=163,no=164,missing=163
+							163:leaf=0.00555108
+							164:leaf=0.0208556
+				24:leaf=-0.00201634
+			12:leaf=0.0177127
+		6:[std_tm_encode<1.03852e+006] yes=13,no=14,missing=13
+			13:[out_degree_x<43.5] yes=27,no=28,missing=28
+				27:[max_month_repay<3751] yes=55,no=56,missing=55
+					55:[prior_period_repay_amt<94045] yes=103,no=104,missing=103
+						103:leaf=-0.00293004
+						104:leaf=0.0157773
+					56:leaf=-0.0188443
+				28:[std_current_bill_amt<419319] yes=57,no=58,missing=58
+					57:[live_info<5] yes=107,no=108,missing=108
+						107:leaf=0.00128447
+						108:[std_pre_borrow_cash_amt<207021] yes=199,no=200,missing=199
+							199:leaf=0.0165328
+							200:leaf=-0.0129424
+					58:leaf=0.0169007
+			14:[std_current_convert_jifen<2346.21] yes=29,no=30,missing=29
+				29:[std_pre_borrow_cash_amt_usd<16842.1] yes=59,no=60,missing=59
+					59:leaf=-0.00532703
+					60:[sum_tm_encode<9.5999e+007] yes=113,no=114,missing=113
+						113:leaf=-0.0181407
+						114:leaf=0.0181763
+				30:leaf=0.0128617
+booster[29]:
+0:[tm_encode<15792375] yes=1,no=2,missing=1
+	1:[mean_prior_period_repay_amt<146971] yes=3,no=4,missing=3
+		3:leaf=-0.0192512
+		4:leaf=-0.00730016
+	2:[tm_encode<18270240] yes=5,no=6,missing=5
+		5:leaf=0.0135966
+		6:[in_degree_x<3.5] yes=13,no=14,missing=14
+			13:leaf=0.000448242
+			14:[live_info<6] yes=29,no=30,missing=30
+				29:leaf=0.00466521
+				30:leaf=0.014712
+booster[30]:
+0:[tm_encode<11616948] yes=1,no=2,missing=1
+	1:[mean_prior_period_repay_amt<96816.3] yes=3,no=4,missing=3
+		3:leaf=-0.0198901
+		4:leaf=-0.00786359
+	2:[tm_encode<18210848] yes=5,no=6,missing=5
+		5:leaf=0.0126727
+		6:[in_degree_x<2.5] yes=13,no=14,missing=14
+			13:leaf=0.000577199
+			14:[max_month_repay_count<6] yes=29,no=30,missing=30
+				29:leaf=0.0179348
+				30:[mean_current_bill_amt<134993] yes=61,no=62,missing=62
+					61:leaf=0.00198602
+					62:[mean_tm_encode<1.85338e+007] yes=119,no=120,missing=119
+						119:leaf=5.07675e-005
+						120:leaf=0.0132557
+booster[31]:
+0:[tm_encode<11616948] yes=1,no=2,missing=1
+	1:[curt_jifen<2062] yes=3,no=4,missing=3
+		3:leaf=-0.0199337
+		4:leaf=-0.00657598
+	2:[tm_encode<18268236] yes=5,no=6,missing=5
+		5:leaf=0.0107358
+		6:[out_degree_x<80.5] yes=13,no=14,missing=13
+			13:[sum_tm_encode<1.0221e+008] yes=27,no=28,missing=27
+				27:leaf=-0.0114634
+				28:[sum_tm_encode<1.30862e+008] yes=57,no=58,missing=57
+					57:[mean_cost_cnt<2.26794] yes=105,no=106,missing=105
+						105:leaf=0.00566495
+						106:leaf=-0.0187801
+					58:leaf=-0.00562928
+			14:leaf=0.00624228
+booster[32]:
+0:[tm_encode<11616948] yes=1,no=2,missing=1
+	1:[tm_encode<9628701] yes=3,no=4,missing=3
+		3:leaf=-0.0102338
+		4:leaf=-0.0238502
+	2:[tm_encode<18269700] yes=5,no=6,missing=5
+		5:leaf=0.0107019
+		6:[expect_quota_max<2101] yes=13,no=14,missing=14
+			13:leaf=0.0129908
+			14:[marital_status<3] yes=29,no=30,missing=30
+				29:[current_bill_amt<1.42587e+006] yes=55,no=56,missing=56
+					55:leaf=-0.00196363
+					56:[expect_quota_min<26501] yes=99,no=100,missing=100
+						99:leaf=0.0107917
+						100:leaf=-0.00769642
+				30:leaf=0.00615473
+booster[33]:
+0:[tm_encode<15955298] yes=1,no=2,missing=1
+	1:[mean_curt_jifen<1038.34] yes=3,no=4,missing=3
+		3:leaf=-0.019157
+		4:leaf=-0.00715113
+	2:[tm_encode<18269700] yes=5,no=6,missing=5
+		5:[salary<2126] yes=11,no=12,missing=11
+			11:leaf=-0.00481647
+			12:leaf=0.0137315
+		6:[1u_friends_x<0] yes=13,no=14,missing=13
+			13:[tm_encode<21483192] yes=27,no=28,missing=27
+				27:[max_month_repay<1926] yes=55,no=56,missing=55
+					55:leaf=0.000861389
+					56:leaf=-0.0202868
+				28:leaf=0.00893197
+			14:[max_month_repay_count<6] yes=29,no=30,missing=30
+				29:leaf=0.0126072
+				30:[prior_period_repay_amt<25042.5] yes=61,no=62,missing=61
+					61:leaf=0.000617695
+					62:[std_tm_encode<637938] yes=125,no=126,missing=125
+						125:leaf=0.0129084
+						126:[salary_mean<3043] yes=229,no=230,missing=229
+							229:leaf=-0.0121217
+							230:leaf=0.00569925
+booster[34]:
+0:[tm_encode<16028491] yes=1,no=2,missing=1
+	1:leaf=-0.01226
+	2:[1u_friends_x<66.5] yes=5,no=6,missing=5
+		5:[salary<3646] yes=11,no=12,missing=11
+			11:leaf=-0.00556008
+			12:leaf=0.00524742
+		6:[std_current_bill_min_repay_amt<1.03299e+006] yes=13,no=14,missing=13
+			13:[mean_current_bill_amt<1.38717e+006] yes=27,no=28,missing=27
+				27:[max_month_repay_count<6] yes=55,no=56,missing=56
+					55:leaf=0.0143785
+					56:[expect_quota_mean<3348.82] yes=111,no=112,missing=112
+						111:leaf=0.0115547
+						112:[tm_encode<18270652] yes=201,no=202,missing=201
+							201:leaf=0.00924784
+							202:[min_current_bill_bal<199700] yes=337,no=338,missing=338
+								337:leaf=0.000202214
+								338:[std_prior_period_jifen_bal<24254.9] yes=517,no=518,missing=518
+									517:leaf=0.0141147
+									518:leaf=-0.00107472
+				28:leaf=0.0236483
+			14:leaf=-0.0246979
+booster[35]:
+0:[tm_encode<15792375] yes=1,no=2,missing=1
+	1:[sum_curt_jifen<13206.5] yes=3,no=4,missing=3
+		3:leaf=-0.0178002
+		4:leaf=-0.00551227
+	2:[tm_encode<18270240] yes=5,no=6,missing=5
+		5:leaf=0.0104853
+		6:[expect_quota_max<2101] yes=13,no=14,missing=14
+			13:leaf=0.0113879
+			14:[marital_status<3] yes=29,no=30,missing=30
+				29:[mean_current_adj_jifen<26.8756] yes=59,no=60,missing=59
+					59:[std_prior_period_repay_amt<291060] yes=117,no=118,missing=118
+						117:[sum_credit_lmt_amt<6.475e+006] yes=213,no=214,missing=213
+							213:leaf=-0.00179904
+							214:[std_pre_borrow_cash_amt<333404] yes=367,no=368,missing=367
+								367:[prior_period_jifen_bal<8242] yes=559,no=560,missing=559
+									559:leaf=-0.0244227
+									560:leaf=0.00720176
+								368:leaf=0.00642205
+						118:leaf=0.00625991
+					60:leaf=0.0101818
+				30:[min_current_bill_bal<-100012] yes=61,no=62,missing=62
+					61:leaf=-0.0103873
+					62:[std_tm_encode<58622.6] yes=123,no=124,missing=123
+						123:leaf=0.00995623
+						124:[prior_period_repay_amt<1.10025e+006] yes=227,no=228,missing=228
+							227:[std_curt_jifen<6326.31] yes=393,no=394,missing=394
+								393:leaf=-0.000621752
+								394:leaf=0.0164825
+							228:leaf=-0.00613338
+booster[36]:
+0:[max_tm_encode<1.16169e+007] yes=1,no=2,missing=1
+	1:leaf=-0.0123905
+	2:[out_degree_x<50.5] yes=5,no=6,missing=5
+		5:[prior_period_repay_amt<102208] yes=11,no=12,missing=11
+			11:leaf=-0.00367079
+			12:[max_month_repay<3351] yes=25,no=26,missing=26
+				25:leaf=0.0118175
+				26:leaf=-0.014317
+		6:[max_tm_encode<2.04338e+007] yes=13,no=14,missing=13
+			13:leaf=0.00853362
+			14:[mean_tm_encode<2.06463e+007] yes=29,no=30,missing=29
+				29:leaf=-0.00224367
+				30:leaf=0.00671592
+booster[37]:
+0:[max_tm_encode<1.17639e+007] yes=1,no=2,missing=1
+	1:leaf=-0.0110241
+	2:[max_tm_encode<1.9824e+007] yes=5,no=6,missing=5
+		5:leaf=0.0074843
+		6:[min_tm_encode<1.93171e+007] yes=13,no=14,missing=13
+			13:leaf=-0.00259302
+			14:[std_cost_cnt<2.28216] yes=29,no=30,missing=29
+				29:[prior_period_repay_amt<89990] yes=57,no=58,missing=58
+					57:leaf=0.00119631
+					58:[expect_quota_min<27001] yes=113,no=114,missing=114
+						113:leaf=0.0118422
+						114:leaf=-0.00439363
+				30:leaf=-0.013172
+booster[38]:
+0:[tm_encode<16028491] yes=1,no=2,missing=1
+	1:[max_pre_borrow_cash_amt<1.025e+006] yes=3,no=4,missing=3
+		3:leaf=-0.0133586
+		4:leaf=0.00315843
+	2:[tm_encode<19306340] yes=5,no=6,missing=5
+		5:leaf=0.00776207
+		6:[in_degree_x<2.5] yes=13,no=14,missing=14
+			13:leaf=-0.00156077
+			14:[live_info<6] yes=29,no=30,missing=30
+				29:leaf=0.00101006
+				30:leaf=0.0130698
+booster[39]:
+0:[sum_tm_encode<8.39128e+007] yes=1,no=2,missing=1
+	1:[mean_curt_jifen<1046.43] yes=3,no=4,missing=3
+		3:leaf=-0.0151832
+		4:leaf=-0.00454338
+	2:[out_degree_x<51.5] yes=5,no=6,missing=5
+		5:leaf=-0.000380966
+		6:[tm_encode<21471080] yes=13,no=14,missing=13
+			13:[expect_quota_mean<4982.14] yes=27,no=28,missing=28
+				27:leaf=0.015008
+				28:leaf=0.00621852
+			14:leaf=0.000519515
+booster[40]:
+0:[tm_encode<11616948] yes=1,no=2,missing=1
+	1:[cost_cnt<0] yes=3,no=4,missing=3
+		3:leaf=-0.0144298
+		4:[max_avlb_bal<1.76857e+006] yes=9,no=10,missing=10
+			9:leaf=-0.0166062
+			10:[salary<4151] yes=21,no=22,missing=22
+				21:leaf=-0.0111125
+				22:leaf=0.0153818
+	2:[max_prior_period_repay_amt<1.3808e+006] yes=5,no=6,missing=5
+		5:[sum_credit_lmt_amt<1.0725e+007] yes=11,no=12,missing=11
+			11:[salary_mean<3680.83] yes=23,no=24,missing=24
+				23:[max_prior_period_bill_amt<893227] yes=47,no=48,missing=48
+					47:leaf=-0.00365279
+					48:leaf=0.0127051
+				24:leaf=0.00507125
+			12:[sum_curt_jifen<409874] yes=25,no=26,missing=25
+				25:leaf=-0.0110194
+				26:leaf=0.00347944
+		6:leaf=0.00869726
+booster[41]:
+0:[tm_encode<15783047] yes=1,no=2,missing=1
+	1:[expect_quota_std<1974.68] yes=3,no=4,missing=3
+		3:leaf=-0.0115484
+		4:leaf=0.00410318
+	2:[tm_encode<18210848] yes=5,no=6,missing=5
+		5:leaf=0.00989582
+		6:[in_degree_x<2.5] yes=13,no=14,missing=14
+			13:leaf=-0.00083036
+			14:[max_month_repay_count<6] yes=29,no=30,missing=30
+				29:leaf=0.0144234
+				30:leaf=0.00347481
+booster[42]:
+0:[max_tm_encode<1.15266e+007] yes=1,no=2,missing=1
+	1:[max_tm_encode<9.64968e+006] yes=3,no=4,missing=3
+		3:[max_avlb_bal<2.10703e+006] yes=7,no=8,missing=7
+			7:[sum_tm_encode<4.52201e+007] yes=15,no=16,missing=15
+				15:[1u_friends_y<369.5] yes=31,no=32,missing=31
+					31:[sum_prior_period_bill_amt<2.22956e+007] yes=59,no=60,missing=60
+						59:[sum_current_award_jifen<6593.5] yes=115,no=116,missing=115
+							115:leaf=-0.0122937
+							116:leaf=0.0223141
+						60:leaf=-0.0259287
+					32:leaf=0.0110304
+				16:leaf=-0.000983984
+			8:leaf=0.0179366
+		4:leaf=-0.0193685
+	2:leaf=0.00347849
+booster[43]:
+0:[min_tm_encode<1.20524e+007] yes=1,no=2,missing=1
+	1:[std_prior_period_jifen_bal<535.816] yes=3,no=4,missing=3
+		3:leaf=-0.00927306
+		4:leaf=0.000436419
+	2:[1u_friends_x<45.5] yes=5,no=6,missing=5
+		5:[prior_period_repay_amt<100051] yes=11,no=12,missing=11
+			11:leaf=-0.0051277
+			12:[max_month_repay<3351] yes=25,no=26,missing=26
+				25:leaf=0.0118826
+				26:leaf=-0.0140255
+		6:leaf=0.0049178
+booster[44]:
+0:[sum_tm_encode<8.39128e+007] yes=1,no=2,missing=1
+	1:[min_prior_period_bill_amt<-571.5] yes=3,no=4,missing=4
+		3:leaf=0.00461109
+		4:leaf=-0.010254
+	2:[tm_encode<19667652] yes=5,no=6,missing=5
+		5:leaf=0.00694833
+		6:[min_prior_period_bill_amt<-490] yes=13,no=14,missing=13
+			13:[count_tm_encode<7] yes=27,no=28,missing=27
+				27:[max_circle_interest<15655] yes=55,no=56,missing=56
+					55:leaf=-0.00329775
+					56:[std_cost_cnt<2.2919] yes=109,no=110,missing=109
+						109:[expect_quota_max<4501] yes=185,no=186,missing=186
+							185:leaf=0.024684
+							186:[max_prior_period_repay_amt<900001] yes=317,no=318,missing=317
+								317:leaf=0.00404003
+								318:[current_bill_min_repay_amt<311570] yes=493,no=494,missing=493
+									493:leaf=0.0197827
+									494:leaf=-0.0101079
+						110:leaf=-0.00664086
+				28:[curt_jifen<1524.5] yes=57,no=58,missing=57
+					57:leaf=-0.0109214
+					58:leaf=0.00517477
+			14:leaf=-0.00117795
+booster[45]:
+0:[tm_encode<16040665] yes=1,no=2,missing=1
+	1:leaf=-0.00849935
+	2:[expect_quota_max<2101] yes=5,no=6,missing=6
+		5:leaf=0.0117789
+		6:[tm_encode<18210848] yes=13,no=14,missing=13
+			13:leaf=0.00791916
+			14:[1u_friends_x<84.5] yes=29,no=30,missing=29
+				29:leaf=-0.00146921
+				30:[gross_profit_x<1.27197e+008] yes=59,no=60,missing=60
+					59:[std_nadd_jifen<12725.4] yes=107,no=108,missing=108
+						107:leaf=0.0157799
+						108:leaf=-0.01026
+					60:leaf=0.00210995
